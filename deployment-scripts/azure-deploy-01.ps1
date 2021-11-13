@@ -4,7 +4,7 @@ $password = Read-Host "Your username is 'cloudadmin'. Please enter a password fo
 # Prompt for local ip address
 $ipAddress = Read-Host "Disconnect your VPN, open PowerShell on your machine and run '(Invoke-WebRequest -Uri "https://ipinfo.io/ip").Content'. Please enter the value (include periods) next to 'Address': "
 # Get resource group and location and random string
-$resourceGroupName = "Sandbox resource group name"
+$resourceGroupName = "aks-serverless-workshop-rg"
 $resourceGroup = Get-AzResourceGroup | Where ResourceGroupName -like $resourceGroupName
 $uniqueID = Get-Random -Minimum 100000 -Maximum 1000000
 $location = $resourceGroup.Location
