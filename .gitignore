@@ -488,3 +488,6 @@ database/sqlpackage/System.Xml.XPath.XDocument.dll
 database/sqlpackage/WindowsBase.dll
 database/notebooks/01-set-up-database.ipynb
 database/notebooks/02-json-geospatial-sql-db.ipynb
+
+**/.vscode
+**/.DS_Store
